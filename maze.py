@@ -53,8 +53,8 @@ class Wall(sprite.Sprite):
     def draw_wall(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
         
-w_width = 700
-w_height = 500
+w_width = 600
+w_height = 400
 
 window = display.set_mode((w_width, w_height))
 display.set_caption('Maze')
